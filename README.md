@@ -6,7 +6,8 @@
 
 ### Instalaciones
 - pip install django
-
+- pip install gunicorn
+- pip freeze > requirements.txt
 ### Crear proyecto y app
 - django-admin startproject djangocrud .
 - django-admin startapp tasks
