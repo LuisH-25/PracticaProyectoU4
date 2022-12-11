@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'tasks',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://template-django-production-6e65.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://practicaproyectou4-production-dc61.up.railway.app']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
