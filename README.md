@@ -6,6 +6,7 @@
 
 ### Instalaciones
 - pip install django
+- pip install mysqlclient
 - pip install gunicorn
 - pip freeze > requirements.txt
 ### Crear proyecto y app
