@@ -75,12 +75,25 @@ WSGI_APPLICATION = 'djangocrud.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+#mysql://root:ILhUEaLgCJmeWiJ3PKX8@containers-us-west-79.railway.app:6576/railway
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'railway',
+            'USER': 'root',
+            'PASSWORD': 'ILhUEaLgCJmeWiJ3PKX8',
+            'HOST': 'containers-us-west-79.railway.app',
+            'PORT': '6576',
+        }
     }
-}
 
 
 # Password validation
