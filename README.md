@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     # Aplicaciones instaladas
     'tasks',
 ]
+- CSRF_TRUSTED_ORIGINS = ['https://template-django-production-6e65.up.railway.app']
 
 ### crear las tablas en la db
 - django-admin startapp tasks
